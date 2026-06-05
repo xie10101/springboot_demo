@@ -35,9 +35,9 @@ public class Controller {
     //3.查询全部 GET /student/list
     @GetMapping("/list")
     public List<Student> listAll(){
-        log.info("查询成功");
+//        throw new RuntimeException("查询失败");
         return studentService.list();
-    }
+ }
 
     //4.分页查询 GET /student/page?pageNum=1&pageSize=3
     @GetMapping("/page")
