@@ -8,8 +8,30 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    强制输出
+
   global-config:
     db-config:
       id-type: auto
+# 全局设置数据库主键 id 自增 int
 
 spring.application.name: demo
+# 日志配置
+logging:
+  # 全局日志级别
+  level:
+    root: info
+
+    # 你自己包的日志级别（推荐）
+    com.example.demo: debug
+
+    # MyBatis 打印 SQL（超级常用！）
+    com.example.demo.modules.student.mapper: debug
+
+  # 日志文件输出（可选）
+  file:
+    name: logs/demo.log
+
+  # 日志格式
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{50} - %msg%n"

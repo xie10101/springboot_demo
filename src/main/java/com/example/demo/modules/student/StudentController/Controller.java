@@ -5,10 +5,11 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.demo.modules.student.entity.Student;
 import com.example.demo.modules.student.server.StudentServer;
 import jakarta.annotation.Resource;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@Slf4j
 @RestController
 @RequestMapping("/student")
 public class Controller {
@@ -20,18 +21,21 @@ public class Controller {
     @PostMapping
     public String add(@RequestBody Student student){
         studentService.save(student);
+        log.info("新增成功");
         return "新增成功";
     }
 
     //2.根据id查询 GET /student/{id}
     @GetMapping("/{id}")
     public Student getById(@PathVariable Integer id){
+        log.info("查询成功");
         return studentService.getById(id);
     }
 
     //3.查询全部 GET /student/list
     @GetMapping("/list")
     public List<Student> listAll(){
+        log.info("查询成功");
         return studentService.list();
     }
 
@@ -56,4 +60,9 @@ public class Controller {
         studentService.removeById(id);
         return "删除成功";
     }
+
+
+
+
+
 }
