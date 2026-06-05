@@ -1,305 +1,253 @@
-2026-06-05T10:17:58.641+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 28208 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:17:58.651+08:00 DEBUG 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:17:58.652+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:17:58.703+08:00  INFO 28208 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-05T10:17:58.703+08:00  INFO 28208 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-05T10:17:59.583+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:17:59.584+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:17:59.591+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:17:59.600+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:17:59.600+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:17:59.648+08:00  INFO 28208 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:17:59.648+08:00  INFO 28208 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 944 ms
-2026-06-05T10:18:00.278+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:18:00.306+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:18:00.313+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.149 seconds (process running for 2.905)
-2026-06-05T10:19:11.655+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-05T10:19:11.656+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-05T10:19:11.660+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-06-05T10:19:11.887+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-05T10:19:12.740+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@764f832d
-2026-06-05T10:19:12.742+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-05T10:19:12.908+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-4] c.e.d.m.s.StudentController.Controller   : 新增成功
-2026-06-05T10:19:47.686+08:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2026-06-05T10:19:47.713+08:00  INFO 28208 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-05T10:19:47.728+08:00  INFO 28208 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-06-05T10:19:47.850+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 28208 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:19:47.850+08:00 DEBUG 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:19:47.851+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:19:48.246+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:19:48.247+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:19:48.249+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:19:48.249+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:19:48.249+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:19:48.280+08:00  INFO 28208 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:19:48.280+08:00  INFO 28208 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 425 ms
-2026-06-05T10:19:48.553+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:19:48.573+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:19:48.577+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.784 seconds (process running for 111.17)
-2026-06-05T10:19:48.579+08:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:19:51.553+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-05T10:19:51.554+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-05T10:19:51.555+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-05T10:20:19.451+08:00  INFO 28208 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-05T10:20:19.567+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 28208 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:20:19.567+08:00 DEBUG 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:20:19.568+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:20:19.902+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:20:19.903+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:20:19.904+08:00  INFO 28208 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:20:19.905+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:20:19.905+08:00  INFO 28208 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:20:19.928+08:00  INFO 28208 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:20:19.928+08:00  INFO 28208 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 358 ms
-2026-06-05T10:20:20.113+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:20:20.132+08:00  INFO 28208 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:20:20.135+08:00  INFO 28208 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.599 seconds (process running for 142.728)
-2026-06-05T10:20:20.137+08:00  INFO 28208 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:20:41.952+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-05T10:20:41.953+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-05T10:20:41.953+08:00  INFO 28208 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-06-05T10:20:41.958+08:00 ERROR 28208 --- [demo] [http-nio-8080-exec-2] c.e.demo.common.GlobalExceptionHandler   : 运行时异常: 
+2026-06-06T01:39:42.033+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 26684 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:39:42.044+08:00 DEBUG 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:39:42.045+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:39:42.098+08:00  INFO 26684 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:39:42.098+08:00  INFO 26684 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:39:43.232+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:39:43.237+08:00  INFO 26684 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:39:43.244+08:00  INFO 26684 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:39:43.254+08:00  INFO 26684 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:39:43.254+08:00  INFO 26684 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:39:43.306+08:00  INFO 26684 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:39:43.306+08:00  INFO 26684 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
+2026-06-06T01:39:43.558+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:39:43.891+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e00acb8
+2026-06-06T01:39:43.893+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:39:43.937+08:00  INFO 26684 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:39:43.977+08:00  INFO 26684 --- [demo] [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table `sring_stu_demo`.`flyway_schema_history` does not exist yet
+2026-06-06T01:39:43.981+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 0 migrations (execution time 00:00.013s)
+2026-06-06T01:39:43.981+08:00  WARN 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : No migrations found. Are your locations set up correctly?
+2026-06-06T01:39:44.006+08:00  INFO 26684 --- [demo] [restartedMain] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `sring_stu_demo`.`flyway_schema_history` with baseline ...
+2026-06-06T01:39:44.159+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbBaseline     : Successfully baselined schema with version: 1
+2026-06-06T01:39:44.183+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:39:44.187+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `sring_stu_demo` is up to date. No migration necessary.
+2026-06-06T01:39:44.844+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:39:44.875+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:39:44.882+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.34 seconds (process running for 4.087)
+2026-06-06T01:41:41.677+08:00  INFO 26684 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-06-06T01:41:41.693+08:00  INFO 26684 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:41:41.704+08:00  INFO 26684 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-06T01:41:41.776+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 26684 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:41:41.777+08:00 DEBUG 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:41:41.777+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:41:42.006+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:41:42.006+08:00  INFO 26684 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:41:42.007+08:00  INFO 26684 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:41:42.007+08:00  INFO 26684 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:41:42.007+08:00  INFO 26684 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:41:42.027+08:00  INFO 26684 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:41:42.027+08:00  INFO 26684 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 248 ms
+2026-06-06T01:41:42.076+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-06-06T01:41:42.093+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e212f0a
+2026-06-06T01:41:42.093+08:00  INFO 26684 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-06-06T01:41:42.097+08:00  INFO 26684 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:41:42.118+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.012s)
+2026-06-06T01:41:42.133+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:41:42.134+08:00  INFO 26684 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `sring_stu_demo` is up to date. No migration necessary.
+2026-06-06T01:41:42.312+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:41:42.325+08:00  INFO 26684 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:41:42.327+08:00  INFO 26684 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.581 seconds (process running for 121.532)
+2026-06-06T01:41:42.330+08:00  INFO 26684 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-06T01:46:30.030+08:00  INFO 26684 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-06-06T01:46:30.035+08:00  INFO 26684 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-06-06T01:46:33.373+08:00  INFO 38744 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 38744 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:46:33.375+08:00 DEBUG 38744 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:46:33.375+08:00  INFO 38744 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:46:33.424+08:00  INFO 38744 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:46:33.425+08:00  INFO 38744 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:46:34.324+08:00  INFO 38744 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:46:34.328+08:00  INFO 38744 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:46:34.332+08:00  INFO 38744 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:46:34.341+08:00  INFO 38744 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:46:34.342+08:00  INFO 38744 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:46:34.383+08:00  INFO 38744 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:46:34.383+08:00  INFO 38744 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 958 ms
+2026-06-06T01:46:34.607+08:00  INFO 38744 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:46:34.888+08:00  INFO 38744 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@348a3a55
+2026-06-06T01:46:34.890+08:00  INFO 38744 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:46:34.925+08:00  INFO 38744 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:46:34.966+08:00  INFO 38744 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.022s)
+2026-06-06T01:46:34.982+08:00  INFO 38744 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:46:34.985+08:00  INFO 38744 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `sring_stu_demo` is up to date. No migration necessary.
+2026-06-06T01:46:35.570+08:00  INFO 38744 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:46:35.602+08:00  INFO 38744 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:46:35.610+08:00  INFO 38744 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.666 seconds (process running for 3.282)
+2026-06-06T01:48:04.360+08:00  INFO 38744 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:48:04.367+08:00  INFO 38744 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-06T01:48:07.204+08:00  INFO 36636 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 36636 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:48:07.205+08:00 DEBUG 36636 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:48:07.206+08:00  INFO 36636 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:48:07.255+08:00  INFO 36636 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:48:07.257+08:00  INFO 36636 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:48:08.219+08:00  INFO 36636 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:48:08.222+08:00  INFO 36636 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:48:08.227+08:00  INFO 36636 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:48:08.234+08:00  INFO 36636 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:48:08.235+08:00  INFO 36636 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:48:08.276+08:00  INFO 36636 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:48:08.277+08:00  INFO 36636 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2026-06-06T01:48:08.501+08:00  INFO 36636 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:48:08.798+08:00  INFO 36636 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32c7cd7
+2026-06-06T01:48:08.799+08:00  INFO 36636 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:48:08.844+08:00  INFO 36636 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:48:08.891+08:00  INFO 36636 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.027s)
+2026-06-06T01:48:08.909+08:00  INFO 36636 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:48:08.912+08:00  INFO 36636 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `sring_stu_demo` is up to date. No migration necessary.
+2026-06-06T01:48:09.503+08:00  INFO 36636 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:48:09.540+08:00  INFO 36636 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:48:09.549+08:00  INFO 36636 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.768 seconds (process running for 3.469)
+2026-06-06T01:49:57.723+08:00  INFO 36636 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:49:57.728+08:00  INFO 36636 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-06T01:50:00.305+08:00  INFO 36032 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 36032 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:50:00.307+08:00 DEBUG 36032 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:50:00.307+08:00  INFO 36032 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:50:00.358+08:00  INFO 36032 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:50:00.359+08:00  INFO 36032 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:50:01.335+08:00  INFO 36032 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:50:01.340+08:00  INFO 36032 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:50:01.345+08:00  INFO 36032 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:50:01.353+08:00  INFO 36032 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:50:01.354+08:00  INFO 36032 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:50:01.400+08:00  INFO 36032 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:50:01.401+08:00  INFO 36032 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1042 ms
+2026-06-06T01:50:01.598+08:00  INFO 36032 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:50:01.847+08:00  INFO 36032 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ed24154
+2026-06-06T01:50:01.848+08:00  INFO 36032 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:50:01.879+08:00  INFO 36032 --- [demo] [restartedMain] o.f.c.i.resource.ResourceNameValidator   : 1 SQL migrations were detected but not run because they did not follow the filename convention.
+2026-06-06T01:50:01.879+08:00  INFO 36032 --- [demo] [restartedMain] o.f.c.i.resource.ResourceNameValidator   : Set 'validateMigrationNaming' to true to fail fast and see a list of the invalid file names.
+2026-06-06T01:50:01.892+08:00  INFO 36032 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:50:01.937+08:00  INFO 36032 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.024s)
+2026-06-06T01:50:01.952+08:00  INFO 36032 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:50:01.954+08:00  INFO 36032 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `sring_stu_demo` is up to date. No migration necessary.
+2026-06-06T01:50:02.483+08:00  INFO 36032 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:50:02.511+08:00  INFO 36032 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:50:02.517+08:00  INFO 36032 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.693 seconds (process running for 3.345)
+2026-06-06T01:50:48.967+08:00  INFO 36032 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:50:48.975+08:00  INFO 36032 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-06T01:50:51.779+08:00  INFO 1928 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 1928 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:50:51.780+08:00 DEBUG 1928 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:50:51.780+08:00  INFO 1928 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:50:51.829+08:00  INFO 1928 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:50:51.829+08:00  INFO 1928 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:50:52.752+08:00  INFO 1928 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:50:52.756+08:00  INFO 1928 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:50:52.761+08:00  INFO 1928 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:50:52.770+08:00  INFO 1928 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:50:52.770+08:00  INFO 1928 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:50:52.814+08:00  INFO 1928 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:50:52.814+08:00  INFO 1928 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 985 ms
+2026-06-06T01:50:53.018+08:00  INFO 1928 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:50:53.295+08:00  INFO 1928 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@704a35fb
+2026-06-06T01:50:53.296+08:00  INFO 1928 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:50:53.337+08:00  INFO 1928 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:50:53.373+08:00  WARN 1928 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'studentMapper' defined in file [F:\javaEE\SpringBoot_first\demo\target\classes\com\example\demo\modules\student\mapper\StudentMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+2026-06-06T01:50:53.374+08:00  INFO 1928 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:50:53.376+08:00  INFO 1928 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-06T01:50:53.379+08:00  INFO 1928 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-06T01:50:53.387+08:00  INFO 1928 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
 
-java.lang.RuntimeException: 查询失败
-	at com.example.demo.modules.student.StudentController.Controller.listAll(Controller.java:38) ~[classes/:na]
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-06T01:50:53.403+08:00 ERROR 1928 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'studentMapper' defined in file [F:\javaEE\SpringBoot_first\demo\target\classes\com\example\demo\modules\student\mapper\StudentMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.1.jar:3.3.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.1.jar:3.3.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:11) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.25.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.1.jar:3.3.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentMapper' defined in file [F:\javaEE\SpringBoot_first\demo\target\classes\com\example\demo\modules\student\mapper\StudentMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1687) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1436) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Found more than one migration with version 1
+Offenders:
+-> F:\javaEE\SpringBoot_first\demo\target\classes\db\migration\V1__init_teacher_table.sql (SQL)
+-> F:\javaEE\SpringBoot_first\demo\target\classes\db\migration\V1__init_student_table.sql (SQL)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 36 common frames omitted
+Caused by: org.flywaydb.core.api.FlywayException: Found more than one migration with version 1
+Offenders:
+-> F:\javaEE\SpringBoot_first\demo\target\classes\db\migration\V1__init_teacher_table.sql (SQL)
+-> F:\javaEE\SpringBoot_first\demo\target\classes\db\migration\V1__init_student_table.sql (SQL)
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.checkForIncompatibilities(CompositeMigrationResolver.java:92) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.doFindAvailableMigrations(CompositeMigrationResolver.java:125) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:112) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations(CompositeMigrationResolver.java:118) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.info.MigrationInfoServiceImpl.refresh(MigrationInfoServiceImpl.java:82) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.command.DbValidate.lambda$validate$0(DbValidate.java:108) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:55) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.internal.command.DbValidate.validate(DbValidate.java:101) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.Flyway.doValidate(Flyway.java:414) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:158) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:205) ~[flyway-core-10.10.0.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:147) ~[flyway-core-10.10.0.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-3.3.1.jar:3.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 45 common frames omitted
 
-2026-06-05T10:20:41.979+08:00  WARN 28208 --- [demo] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.RuntimeException: 查询失败]
-2026-06-05T10:21:09.978+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:21:09.981+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:21:09.982+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:21:10.024+08:00  INFO 25316 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-05T10:21:10.024+08:00  INFO 25316 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-05T10:21:10.922+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:21:10.922+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:21:10.930+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:21:10.938+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:21:10.938+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:21:10.974+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:21:10.975+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 951 ms
-2026-06-05T10:21:11.640+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:21:11.675+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:21:11.683+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.113 seconds (process running for 2.76)
-2026-06-05T10:21:19.341+08:00  INFO 25316 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-05T10:21:19.341+08:00  INFO 25316 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-05T10:21:19.342+08:00  INFO 25316 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-05T10:21:19.362+08:00 ERROR 25316 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 查询失败] with root cause
-
-java.lang.RuntimeException: 查询失败
-	at com.example.demo.modules.student.StudentController.Controller.listAll(Controller.java:38) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.25.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2026-06-05T10:22:06.742+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2026-06-05T10:22:06.810+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:22:06.810+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:22:06.811+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:22:06.962+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:22:06.962+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:22:06.963+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:22:06.964+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:22:06.964+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:22:06.980+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:22:06.980+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 168 ms
-2026-06-05T10:22:07.147+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:22:07.158+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:22:07.161+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.375 seconds (process running for 58.238)
-2026-06-05T10:22:07.164+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:22:08.568+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2026-06-05T10:22:08.636+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:22:08.636+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:22:08.636+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:22:08.811+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:22:08.812+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:22:08.813+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:22:08.813+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:22:08.813+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:22:08.828+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:22:08.828+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
-2026-06-05T10:22:08.955+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:22:08.965+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:22:08.967+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.353 seconds (process running for 60.044)
-2026-06-05T10:22:08.968+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:24:09.855+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2026-06-05T10:24:09.914+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:24:09.915+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:24:09.915+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:24:10.041+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:24:10.042+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:24:10.042+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:24:10.042+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:24:10.043+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:24:10.053+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:24:10.053+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
-2026-06-05T10:24:10.151+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:24:10.160+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:24:10.161+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.266 seconds (process running for 181.239)
-2026-06-05T10:24:10.162+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:24:11.566+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2026-06-05T10:24:11.620+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:24:11.620+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:24:11.620+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:24:11.783+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:24:11.784+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:24:11.785+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:24:11.785+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:24:11.785+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:24:11.796+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:24:11.796+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
-2026-06-05T10:24:11.937+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:24:11.947+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:24:11.950+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.346 seconds (process running for 183.028)
-2026-06-05T10:24:11.951+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:27:25.222+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
-2026-06-05T10:27:25.297+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:27:25.297+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:27:25.297+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:27:25.493+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:27:25.497+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:27:25.498+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:27:25.498+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:27:25.498+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:27:25.514+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:27:25.514+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
-2026-06-05T10:27:25.676+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:27:25.688+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:27:25.688+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.419 seconds (process running for 376.769)
-2026-06-05T10:27:25.692+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:27:27.101+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (4 additions, 0 deletions, 5 modifications)
-2026-06-05T10:27:27.157+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:27:27.157+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:27:27.157+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:27:27.257+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:27:27.257+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:27:27.257+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:27:27.257+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:27:27.257+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:27:27.268+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:27:27.268+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
-2026-06-05T10:27:27.373+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:27:27.381+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:27:27.382+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.245 seconds (process running for 378.46)
-2026-06-05T10:27:27.382+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:28:03.350+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2026-06-05T10:28:03.465+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:28:03.465+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:28:03.466+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:28:03.677+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:28:03.677+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:28:03.677+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:28:03.677+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:28:03.677+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:28:03.697+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:28:03.697+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 231 ms
-2026-06-05T10:28:03.878+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:28:03.887+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:28:03.897+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.463 seconds (process running for 414.974)
-2026-06-05T10:28:03.898+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2026-06-05T10:28:06.328+08:00  INFO 25316 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2026-06-05T10:28:06.446+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 25316 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
-2026-06-05T10:28:06.447+08:00 DEBUG 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
-2026-06-05T10:28:06.447+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-06-05T10:28:06.687+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-05T10:28:06.687+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2026-06-05T10:28:06.693+08:00  INFO 25316 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2026-06-05T10:28:06.693+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-05T10:28:06.693+08:00  INFO 25316 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
-2026-06-05T10:28:06.707+08:00  INFO 25316 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-05T10:28:06.707+08:00  INFO 25316 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
-2026-06-05T10:28:06.848+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-05T10:28:06.890+08:00  INFO 25316 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-05T10:28:06.897+08:00  INFO 25316 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.49 seconds (process running for 417.974)
-2026-06-05T10:28:06.897+08:00  INFO 25316 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-06-06T01:52:32.364+08:00  INFO 9412 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.4 with PID 9412 (F:\javaEE\SpringBoot_first\demo\target\classes started by sls-0 in F:\javaEE\SpringBoot_first\demo)
+2026-06-06T01:52:32.366+08:00 DEBUG 9412 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-06T01:52:32.366+08:00  INFO 9412 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-06-06T01:52:32.413+08:00  INFO 9412 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-06T01:52:32.414+08:00  INFO 9412 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-06T01:52:33.337+08:00  INFO 9412 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-06T01:52:33.340+08:00  INFO 9412 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2026-06-06T01:52:33.344+08:00  INFO 9412 --- [demo] [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2026-06-06T01:52:33.352+08:00  INFO 9412 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-06T01:52:33.353+08:00  INFO 9412 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-06T01:52:33.394+08:00  INFO 9412 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-06T01:52:33.395+08:00  INFO 9412 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 980 ms
+2026-06-06T01:52:33.608+08:00  INFO 9412 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-06T01:52:33.866+08:00  INFO 9412 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2790d41
+2026-06-06T01:52:33.867+08:00  INFO 9412 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-06T01:52:33.913+08:00  INFO 9412 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://localhost:3306/sring_stu_demo (MySQL 8.0)
+2026-06-06T01:52:33.958+08:00  INFO 9412 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.024s)
+2026-06-06T01:52:33.973+08:00  INFO 9412 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `sring_stu_demo`: 1
+2026-06-06T01:52:33.985+08:00  INFO 9412 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Migrating schema `sring_stu_demo` to version "2 - init teacher table"
+2026-06-06T01:52:34.038+08:00  INFO 9412 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema `sring_stu_demo`, now at version v2 (execution time 00:00.026s)
+2026-06-06T01:52:34.559+08:00  INFO 9412 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-06T01:52:34.591+08:00  INFO 9412 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-06T01:52:34.596+08:00  INFO 9412 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.632 seconds (process running for 3.317)
+2026-06-06T01:53:14.638+08:00  INFO 9412 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-06T01:53:14.643+08:00  INFO 9412 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

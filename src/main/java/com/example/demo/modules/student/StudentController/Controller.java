@@ -58,11 +58,8 @@ public class Controller {
     @DeleteMapping("/{id}")
     public String delete(@PathVariable Integer id){
         studentService.removeById(id);
-        return "删除成功";
+//        return "删除成功";
+          throw  new RuntimeException("删除失败");
     }
-
-
-
-
 
 }
